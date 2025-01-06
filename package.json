@@ -1,0 +1,15 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "create-ts-ventileco": "./bin/generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# lint-staged 실행
+echo "Lint-staged를 실행합니다."
+pnpm exec lint-staged
+
+exit 0
