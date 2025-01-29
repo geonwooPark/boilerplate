@@ -3,7 +3,8 @@ const { execSync } = require("child_process");
 const path = require("path");
 const fs = require("fs");
 const { removeSync, copySync } = require("fs-extra");
-const GIT_REPO = "https://github.com/geonwooPark/boilerplate";
+
+const GIT_REPO = "https://github.com/geonwooPark/ts-boilerplate";
 
 // project-name 미입력
 if (process.argv.length < 3) {
